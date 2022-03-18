@@ -2,14 +2,17 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
     <title>Портфолио Junior верстальщика</title>
   </head>
 
   <body>
     <header class="page-header">
-      <div class="container">Контакты в шапке</div>
+      <div class="container">
+        <a href="mailto:maksimyatsencko@gmail.com">maksimyatsencko@gmail.com</a>
+        <a href="tel:+79205513728">+7 920 551 37 28</a>
+      </div>
     </header>
 
     <section class="hero-image">
@@ -22,6 +25,9 @@
     <section class="intro">
       <div class="container">
       <h2 class="subheading">Давайте познакомимся</h2>
+      <figure style="text-align: center;">
+        <img src="img/photo.jpg" width="400" height="auto"  alt="Фотография Максима Яценко">
+      </figure>
       <h3>Пару слов обо мне</h3>
       <p>Мне 23 года. Живу и работаю в городе Сочи. С HTML и CSS знаком ещё с 16 лет, но после долгого перерыва возобновил изучение. Прошёл тренажёры от HTMLACADEMY.RU и записался на обучение профессии, так как считаю курсы дадут больше практического опыта в данный момент чем учёбы в ВУЗе</p>
       <h3>Чем могу быть полезен</h3>
@@ -37,7 +43,10 @@
     <section class="portfolio">
       <div class="container">
       <h2 class="subheading">Мои работы</h2>
-
+      <figure class="project-image">
+        <img src="files/project.jpg" width="928" height="536" alt="Cайт магазина товаров для дома">
+        <a class="button" href="source/index.html" target="_blank">Открыть страницу</a>
+      </figure>
       <h3>Магазин товаров для дома</h3>
       <p>Мой первый сайт.</p>
 
@@ -48,8 +57,9 @@
 
     <footer class="page-footer">
       <div class="container">
-      Контакты в подвале
-    </div>
+        <a class="footer-email" href="mailto:maksimyatsencko@gmail.com">maksimyatsencko@gmail.com</a>
+        <a class="footer-phone" href="tel:+79205513728">+7 920 551 37 28</a>
+      </div>
     </footer>
   </body>
 </html>
